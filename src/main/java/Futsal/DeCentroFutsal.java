@@ -380,7 +380,7 @@ public class DeCentroFutsal extends javax.swing.JFrame {
                txtHargaSewa.setText(Double.toString(hargaSewa));
                 //if fastoolkit full
                if(cmbFasToolkit.getSelectedItem().equals("Full")){
-                   txtFasToolkit.setText(cmbFasToolkit.getSelectedItem()+"     - -Rp 100000- -");
+                   txtFasToolkit.setText(cmbFasToolkit.getSelectedItem()+"     - -Rp 100000- - ");
                    totalBayar = hargaSewa + 100000;
                    totalBayar = totalBayar - diskon;
                    txtTotalBayar.setText("Rp "+Double.toString(totalBayar));            
