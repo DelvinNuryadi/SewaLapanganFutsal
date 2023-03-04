@@ -294,7 +294,7 @@ public class DeCentroFutsal extends javax.swing.JFrame {
                }         
                //if fastoolkit none
                else{
-                   txtFasToolkit.setText(cmbFasToolkit.getSelectedItem()+"     - Rp 0 -");
+                   txtFasToolkit.setText(cmbFasToolkit.getSelectedItem()+"     - Rp 0 - ");
                    totalBayar = hargaSewa + 0;
                    totalBayar = totalBayar - diskon;
                    txtTotalBayar.setText(Double.toString(totalBayar));            
